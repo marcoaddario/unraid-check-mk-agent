@@ -9,7 +9,7 @@ mkdir -p ${DATA_DIR}/deb ${DATA_DIR}/extracted
 mv ${DATA_DIR}/${DEB_NAME}  ${DATA_DIR}/deb/
 cd ${DATA_DIR}/deb
 ar x ${DEB_NAME}
-tar -C ${DATA_DIR}/extracted -xvf ${DATA_DIR}/deb/data.tar.gz
+tar -C ${DATA_DIR}/extracted -xvf ${DATA_DIR}/deb/data.tar.gzarls 
 rm -rf ${DATA_DIR}/extracted/etc/systemd ${DATA_DIR}/extracted/usr/lib/check_mk_agent/plugins ${DATA_DIR}/extracted/usr/share/doc/check-mk-agent/changelog.Debian.gz
 cd ${DATA_DIR}/extracted
 mkdir -p ${DATA_DIR}/$LAT_V
