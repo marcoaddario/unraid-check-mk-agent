@@ -1,5 +1,5 @@
 # Set variables
-DATA_DIR="~/Documents/MyDevel/check_mk_agent"
+DATA_DIR="/root/check_mk_agent"
 DEB_NAME="$(ls -la ${DATA_DIR}/*.deb | cut -d '/' -f4)"
 LAT_V="$(echo "$DEB_NAME" | cut -d '_' -f2 | cut -d '-' -f1)"
 
