@@ -1,33 +1,39 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: "[ISSUE]"
 labels: ''
 assignees: ''
 
 ---
-* **Platform**
+
+###Platform
  - predbat version:
- - Inverter type:
-   [ ] GE
-   [ ] GS
-   [ ] SX4
+
+ - Inverter type (mark the relevant one):
+   [ ] GE (GivEnergy)
+   [ ] GS (Solis Hybrid inverters)
+   [ ] SX4 (Solax Gen4 inverters)
+   [ ] Other (specify): 
+
  - Home Assistant Version:
+
  - Appdaemon Version:
+
  - Other relevant configuration (e.g. number of cars, charger, energy supplier, etc)
 
-* **Describe the bug**
+###Describe the issue
 A clear and concise description of what the bug is.
 
-* **To Reproduce**
+###To Reproduce
 Particular events that made the unexpected behaviour to happen or particular configurations that make the issue to happen.
 
-* **Expected behavior**
+###Expected behaviour
 A clear and concise description of what you expected to happen.
 
-* **Screenshots**
+###Screenshots
 If applicable, add screenshots to help explain your problem (e.g. the predbat plan or graphs)
 
 
-**Additional context**
+###Additional context
 Add any other context about the problem here.
